@@ -1,0 +1,100 @@
+{
+    "products":[
+        {
+            "id" : 1,
+            "title": "samsung a10",
+            "decription" : "",
+            "price": 800,
+            "category": "celulares",
+            "imagen" : "https://images.fravega.com/f300/03bb1d710656618fbc54bcd3038e75d5.jpg.webp"
+        },
+        {
+            "id" : 2,
+            "title": "samsung a10",
+            "decription" : "",
+            "price": 600,
+            "category": "celular",
+            "imagen" : "https://images.fravega.com/f300/68684fb77ad8b2609023cefea3c6c094.jpg.webp"
+        },
+        {
+            "id" : 4,
+            "title": "Notebook asus",
+            "decription" : "",
+            "price":    1000,
+            "category": "notebooks",
+            "imagen" : "https://images.fravega.com/f300/591f96feb88fb1d2a9dde60bfe53ebc1.png.webp"
+        },
+        {
+            "id" : 7,
+            "title": "aurisculares plus",
+            "decription" : "",
+            "price": 60,
+            "category": "auriculares",
+            "imagen" : "https://images.fravega.com/f300/ef162505c9b85809d2f09b0cabfc01b9.jpg.webp"
+        },
+        {
+            "id" : 6,
+            "title": "Notebook asus plus",
+            "decription" : "",
+            "price": 400,
+            "category": "notebooks",
+            "imagen" : "https://images.fravega.com/f300/5579963db9301dc700efbbda97f34296.jpg.webp"
+        },
+        {
+            "id" : 8,
+            "title": "aurisculares plus",
+            "decription" : "",
+            "price": 500,
+            "category": "auriculares",
+            "imagen" : "https://images.fravega.com/f300/a326c525d8e2e29009344585afffc4d6.jpg.webp"
+        },
+        {
+            "id" : 3,
+            "title": "samsung a10",
+            "decription" : "",
+            "price": 150,
+            "category": "celular",
+            "imagen" : "https://images.fravega.com/f300/ddea497ae0d94054111cfa7b394deec3.jpg.webp"
+        },
+        {
+            "id" : 89,
+            "title": "aurisculares plus",
+            "decription" : "",
+            "price": 300,
+            "category": "auriculares",
+            "imagen" : "https://images.fravega.com/f300/4d7ccf73f8c735e716b9002c756a57ec.jpg.webp"
+        },
+        {
+            "id" : 79,
+            "title": "aurisculares plus",
+            "decription" : "",
+            "price": 60,
+            "category": "auriculares",
+            "imagen" : "https://images.fravega.com/f300/4d7ccf73f8c735e716b9002c756a57ec.jpg.webp"
+        },
+        {
+            "id" : 59,
+            "title": "aurisculares plus",
+            "decription" : "",
+            "price": 200,
+            "category": "auriculares",
+            "imagen" : "https://images.fravega.com/f300/4d7ccf73f8c735e716b9002c756a57ec.jpg.webp"
+        },
+        {
+            "id" : 19,
+            "title": "aurisculares plus",
+            "decription" : "",
+            "price": 60,
+            "category": "auriculares",
+            "imagen" : "https://images.fravega.com/f300/4d7ccf73f8c735e716b9002c756a57ec.jpg.webp"
+        },
+        {
+            "id" : 5,
+            "title": "Notebook asus plus+",
+            "decription" : "",
+            "price": 500,
+            "category": "notebooks",
+            "imagen" : "https://images.fravega.com/f300/7314acc7195abcdac348a12f443023ee.jpg.webp"
+        }
+    ]
+}
