@@ -2,7 +2,7 @@ import { useId } from "react";
 import { useCart } from "../hook/useCart";
 import "./cart.css";
 
-function CartItem({ imagen, price, title, quantity, addToCart }){
+function CartItem({ imagen, price, title, quantity, addToCart,eliminar }){
   return(
     <li>
     <img
@@ -15,7 +15,7 @@ function CartItem({ imagen, price, title, quantity, addToCart }){
     </div>
     <footer>
       <small>{quantity}</small>
-      <button >Delete</button>
+      <button onClick={eliminar} >Delete</button>
       <button onClick={addToCart}>+</button>
     </footer>
   </li>
@@ -23,14 +23,14 @@ function CartItem({ imagen, price, title, quantity, addToCart }){
 }
 
 export const Cart = () => {
-  const { cart, addToCart, clearCart } = useCart();
+  const { cart, addToCart, clearCart, eliminar} = useCart();
   const cartCheckboxId = useId();
   return (
     <>
       <label htmlFor={cartCheckboxId} className="boton-cart">
         carrito
       </label>
-      <input type="checkbox" id={cartCheckboxId} hidden />
+      <input type="checkbox" id={cartCheckboxId} hidden /> 
 
       <aside className="card-cart">
         <ul>
@@ -38,6 +38,7 @@ export const Cart = () => {
             <CartItem
               key={product.id}
               addToCart={() => addToCart(product)}
+              eliminar={()=> eliminar(product.id)}
               
               {...product}
             />

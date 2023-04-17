@@ -3,7 +3,7 @@ import { CartContext } from "../context/cart"
 
 
 export const useCart = () =>{
-    const {cart , addToCart, clearCart } = useContext(CartContext)
+    const {cart , addToCart, clearCart ,eliminar} = useContext(CartContext)
 
-    return{cart, addToCart, clearCart}
+    return{cart, addToCart, clearCart,eliminar}
 }
